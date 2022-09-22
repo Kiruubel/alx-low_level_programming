@@ -42,13 +42,13 @@ void print_buffer(char *b, int size)
 				printf(".");
 		}
 
-                if (byte >= size)
-                        continue;
+		if (byte >= size)
+			continue;
 
-                printf("\n");
-        }
+		printf("\n");
+	}
 
-        if (size <= 0)
-                printf("\n");
+	if (size <= 0)
+		printf("\n");
 }
 
