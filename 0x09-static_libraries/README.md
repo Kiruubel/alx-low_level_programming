@@ -1,6 +1,1 @@
-0x09. C - Static libraries
-Resource
-What Is A “C” Library? What Is It Good For?.
-Creating A Static “C” Library Using “ar” and “ranlib”.
-Using A "C" Library In A Program.
-What is difference between Dynamic and Static library(Static and Dynamic linking)
+This is a readme file for the 0x00 C. projects

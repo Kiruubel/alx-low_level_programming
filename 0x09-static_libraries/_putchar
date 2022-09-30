@@ -1,0 +1,14 @@
+#include <unistd.h>
+
+/**
+ * _putchar: writese characters to stdout
+ *@c: the character to print
+ * Auth: Kiru K.
+ *
+ * Return: on success
+ */
+
+int _putchar(char c)
+{
+	return(write(1, &c, 1));
+}
