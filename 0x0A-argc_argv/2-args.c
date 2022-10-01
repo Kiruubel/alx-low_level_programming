@@ -2,22 +2,26 @@
 #include "main.h"
 
 /**
- *main - prints all the arguments in a program
  *
- *@argc: number of arguments
+ * main - Prints all arguments passed into main
  *
- *@argv: array of arguments
+ * @argc: Number of command line arguments
  *
- *return: always (0) success.
+ * @argv: Array name
+ *
+ * Return: 0
+ *
  */
 
-int main(int argc, char *argv[])
-{
-	int n;
 
-	for (n = 0; n < argc; n++)
-	{
-		printf("%s\n", argv[n]);
-	}
+int main(int argc, char *argv[])
+
+{
+
+	int i;
+
+	for (i = 0; i < argc; i++)
+		printf("%s\n", argv[i]);
+
 	return (0);
 }
