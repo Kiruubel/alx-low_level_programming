@@ -1,18 +1,6 @@
-#include <stdio.h>
-#include "4-sum.h"
-#include "4-sum.h"
+#ifndef SUMM
+#define SUMM
 
-/**
- * main - check the code for ALX School students.
- *
- * Return: Always 0.
-*/
+#define SUMM(x, y) ((x) + (y))
 
-int main(void)
-{
-	int s;
-
-	s = SUM(98, 1024);
-	printf("%d\n", s);
-	return (0);
-}
+#endif /* SUM */
